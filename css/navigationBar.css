@@ -1,0 +1,60 @@
+/**************NAVIGATION BAR CSS******************/
+.navbar {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    left: 0;
+    padding: 10px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition:cubic-bezier(0.6, 0.04, 0.98, 0.335);
+    width: 100%;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size:x-large;
+}
+
+.cloumn-flexing {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    right: 40px;
+}
+
+span {
+    padding: 10px;
+}
+
+.nav-list {
+    color: cyan;
+    list-style-type: none;
+    margin: 0 10px;
+    max-width: 90%;
+    padding: 0;
+    text-decoration: none;
+}
+
+.navbar a.nav-list:hover {
+    color: chartreuse;
+}
+
+.nav-logo {
+    
+    height: 40px;
+    width: auto;
+}
+
+.nav-list__Login {
+    margin-top: 10px;
+} 
+
+.nav-list__image {
+    background-image: radial-gradient(circle, rgb(255, 255, 255), rgb(0, 60, 128));
+    float: left;
+    height: 40px;
+    top: 5px;
+    width: 40px;
+}
+
